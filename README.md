@@ -73,3 +73,8 @@ you have each made up, *we expect them to be fairly different from one another.*
   - [loremipsum.io](https://loremipsum.io/)
   - [Riker Ipsum](http://rikeripsum.com/)
   - [Output of a neural net trained on Erowid reports](https://github.com/gtdlk20/NN_final/tree/master/generated_texts)
+  - [ChatGPT](https://openai.com/blog/chatgpt/)
+- AI Image Generators
+  - [Dall-E 2](https://openai.com/dall-e-2/)
+  - [Stable Diffusion](https://stablediffusionweb.com/)
+  - [Midjourney](https://midjourney.com/)
