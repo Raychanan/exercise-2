@@ -1,8 +1,8 @@
-# Homework #2
+# Exercise #2: Landing Page
 
 5 points
 
-**DUE: Friday, January 28 by 5:30pm**
+**DUE: Friday, January 20 by 5:30pm**
 
 ### Instructions
 
@@ -38,22 +38,27 @@ to collapse or drop some elements in the mobile view.
 Use at least two fonts other than the system default. You do not need to include
 any animation or other interactive elements, but are welcome to.
 
-Create a folder called `exercise_2`. It should include a single `.html` document
-and a single CSS file (instead of putting your CSS directly in the `<style>`
-element). When you are done, push the `exercise_2` folder to your class
-repository on GitLab.
+Clone this repositoriy, and edit `index.html` and `styles/landing.css`.
+Put all your styling into `landing.css` instead of putting your CSS directly
+in a `<style>` element or as a `style` attribute. You only need to make the
+landing page. There's no need to make a second `html` file, and all your links
+can have `href="#"`.
 
 Remember to include in your submission any classmates you collaborated with and
 any materials you consulted. Because these pages are for imaginary organizations
 you have each made up, *we expect them to be fairly different from one another.*
 
 ### Grading Rubric:
-  * 1 point: Header, hero element with call to action button or link, and footer
-    are all laid out correctly on desktop
-  * 1 point: Mobile layout, with correct use of media queries
+  * 1 point: Header with navigation elements
+  * 1 point: Hero element with a call to action button or link
+  * 1 point: Footer with links to "meta" pages: "About Us", "Terms of Service", "Privacy", etc. 
   * 1 point: Correct use of one column-count layout
+  * 1 point: Column-count changes to fewer columns on a narrow screen width (<500px)
   * 1 point: Correct use of one flexbox layout
+  * 1 point: Flex direction changes to vertical on a narrow screen width
   * 1 point: Correct use of one grid layout
+  * 1 point: Grid changes to fewer columns on a narrow screen width
+  * 1 point: Header and footer change to a vertical layout or are hidden on a narrow screen width
 
 ### Resources:
 - [Designing Hero Images - Smashing Magazine](https://www.smashingmagazine.com/2017/06/designing-hero-images/)
