@@ -1,5 +1,169 @@
 body {
+    margin: 0 auto;
+  }
 
-}
+  header {
+    background: purple;
+    height: 100px;
+  }
 
-/* TODO: @media ... */
+
+  .flexarticle {
+    padding: 10px;
+    margin: 10px;
+    background: aqua;
+    flex: 1 200px;
+    /* the value "1 200px" is telling the element to take up 1 unit of space within the container, with a maximum width of 200 pixels. */
+  }
+
+  .flexarticle.wide {
+    flex: 3 400px;
+    /* "3 400px", which tells the elements to take up 3 units of space within the container, with a maximum width of 400 pixels. */
+  }
+
+  /* Add your flexbox CSS below here */
+
+
+  /* A navigation bar across the top (single column) */
+  .topnav {
+    margin: 0 auto;
+    padding: 0 24px;
+    /* overflow: hidden; */
+    background-color: rgb(255, 255, 255);
+    columns: 4;
+  }
+
+  .gridarticle {
+    padding: 10px;
+    margin: 10px;
+    background: rgb(22, 96, 96);
+    opacity: 1;
+  }
+
+  .gridwrapper {
+    display: grid;
+    grid-template-columns: 500px 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .box1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .box2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  .box3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 5;
+  }
+
+  .box4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .box5 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+
+  .box6 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+
+  article {
+    padding: 10px;
+    margin: 10px;
+    background: rgb(129, 142, 142);
+    flex: 1 200px;
+    /* the value "1 200px" is telling the element to take up 1 unit of space within the container, with a maximum width of 200 pixels. */
+  }
+
+  article.wide {
+    flex: 3 400px;
+    /* "3 400px", which tells the elements to take up 3 units of space within the container, with a maximum width of 400 pixels. */
+  }
+
+  /* Add your flexbox CSS below here */
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    /* This turns the section element into a flex container and allows its child elements to wrap onto multiple lines if they can't fit on one line. */
+  }
+
+  footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 0 20px;
+  }
+
+  nav a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 10px;
+  }
+
+  nav a:hover {
+    color: #fff;
+  }
+
+  nav a.active {
+    color: #4CAF50;
+  }
+
+  /* Left side buttons */
+  nav .left-buttons {
+    display: flex;
+  }
+
+  nav .left-buttons a {
+    margin-right: 20px;
+  }
+
+  /* Right side buttons */
+  nav .right-buttons {
+    display: flex;
+  }
+
+  nav .right-buttons a {
+    margin-left: 20px;
+  }
+
+  /* Center logo */
+  nav .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  nav .logo img {
+    height: 50px;
+  }
+
+
